@@ -88,20 +88,30 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="ApiServices.cs" />
-    <Compile Include="ChannelsForm.cs" />
+    <Compile Include="ChannelsForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="DiscordModels.cs" />
-    <Compile Include="EmbedCreatorForm.cs" />
+    <Compile Include="EmbedCreatorForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
-    <Compile Include="LoginForm.cs" />
+    <EmbeddedResource Include="LoginForm.cs">
+      <SubType>Form</SubType>
+    </EmbeddedResource>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="ServersForm.cs" />
-    <Compile Include="SettingsForm.cs" />
+    <Compile Include="ServersForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SettingsForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="SettingsService.cs" />
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

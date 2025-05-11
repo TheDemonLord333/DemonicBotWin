@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Windows.Forms;
 
-namespace DemonicBot.WinForms
+namespace DemonicBotWin.WinForms
 {
     static class Program
     {
